@@ -20,7 +20,7 @@
     # extraPackages = epkgs: [ epkgs.ii-pair ];
     emacsPackagesOverlay = self: super: {
       sql = null;
-      ii-pair = null;
+      # ii-pair = null;
       # ii-pair = self.trivialBuild {
       #   pname = "ii-pair";
       #   version = "1";
